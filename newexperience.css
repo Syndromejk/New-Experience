@@ -1,3 +1,6 @@
+body{
+  background-color: #F5F5F5;
+}
 nav {
   background-color: #FFFFFF;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -72,6 +75,8 @@ nav a,
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Montserrat sans-serif;
+
 }
  
  
@@ -127,7 +132,7 @@ nav a:hover,
 }
  
 .profile {
-  font-family: Montserrat;
+  font-family: Montserrat sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 65px;
@@ -141,483 +146,376 @@ nav a:hover,
 }
 /* **************************************************************** */
 
- /* Frame 93 */
- .frame-93 {display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px;
-  gap: 20px;
-  position: absolute;
+.rectanglee-containerr {
+  width: 220px;
   height: 448px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  background: #FFFFFF;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.06);
-  margin-top: 34vh;
-  width: 170px;
-  margin-left: 18vh;
-}
-
-/* applications */
-.applications {
-  width: 165px;
-  height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-/* Job applications */
-.job-applications {
-  position: absolute;
-  width: 135px;
-  left: 50px;
-  top: 4.46%;
-  bottom: 90.18%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-/* Vector */
-.vector {
-  position: absolute;
-  width: 15.5px;
-  left: 20px;
-  top: 5.58%;
-  bottom: 90.96%;
-  background: #548BAB;
-}
-
-/* Line 1 */
-.line-1 {
-  width: 180px;
-  height: 0px;
-  border: 1px solid #F9F9F9;
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/* saved jobs */
-.saved-jobs {
-  width: 119px;
-  height: 24px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-}
-
-/* Saved jobs */
-.saved-jobs-text {
-  position: absolute;
-  width: 89px;
-  left: 50px;
-  top: 18.75%;
-  bottom: 75.89%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-/* Vector */
-.saved-jobs-vector {
-  position: absolute;
-  width: 16px;
-  height: 14px;
-  left: 20px;
-  top: 90px;
-  background: #548BAB;
-}
-
-/* Line 6 */
-.line-6 {
-  width: 180px;
-  height: 0px;
-  border: 1px solid #F9F9F9;
-  flex: none;
-  order: 3;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/* job alerts */
-.job-alerts {
-  width: 110px;
-  height: 24px;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-}
-
-/* Job alerts */
-.job-alerts-text {
-  position: absolute;
-  width: 81px;
-  left: 49px;
-  top: 33.04%;
-  bottom: 61.61%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-/* Vector */
-.job-alerts-vector {
-  position: absolute;
-  width: 14px;
-  left: 20px;
-  top: 34.15%;
-  bottom: 62.28%;
-  background: #548BAB;
-}
-
-/* Line 3 */
-.line-3 {
-  width: 180px;
-  height: 0px;
-  border: 1px solid #F9F9F9;
-  flex: none;
-  order: 5;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/* profile details */
-.profile-details {
-  width: 144px;
-  height: 24px;
-  flex: none;
-  order: 6;
-  flex-grow: 0;
-}
-
-/* Profile details */
-.profile-details-text {
-  position: absolute;
-  width: 114px;
-  left: 50px;
-  top: 47.32%;
-  bottom: 47.32%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #548BAB;
-}
-
-/* Vector */
-.profile-details-vector {
-  position: absolute;
-  width: 16px;
-  left: 20px;
-  top: 48.44%;
-  bottom: 47.99%;
-  background: #548BAB;
-}
-
-/* Line 7 */
-.line-7 {
-  width: 180px;
-  height: 0px;
-  border: 1px solid #F9F9F9;
-  flex: none;
-  order: 7;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/* work preferences */
-.work-preferences {
-  width: 178px;
-  height: 24px;
-  flex: none;
-  order: 8;
-  flex-grow: 0;
-}
-
-/* Work preferences */
-.work-preferences-text {
-  position: absolute;
-  width: 148px;
-  left: 50px;
-  top: 61.61%;
-  bottom: 33.04%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-/* Vector */
-.work-preferences-vector {
-  position: absolute;
-  width: 16px;
-  left: 20px;
-  top: 62.95%;
-  bottom: 33.93%;
-  background: #548BAB;
-}
-
-/* Line 5 */
-.line-5 {
-  width: 180px;
-  height: 0px;
-  border: 1px solid #F9F9F9;
-  flex: none;
-  order: 9;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/* documents */
-.documents {
-  width: 125px;
-  height: 24px;
-  flex: none;
-  order: 10;
-  flex-grow: 0;
-}
-
-/* Documents */
-.documents-text {
-  position: absolute;
-  width: 97px;
-  left: 48px;
-  top: 75.89%;
-  bottom: 18.75%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-/* Vector */
-.documents-vector {
-  position: absolute;
-  width: 12px;
-  left: 20px;
-  top: 77.01%;
-  bottom: 19.42%;
-  background: #548BAB;
-}
-
-/* Line 2 */
-.line-2 {
-  width: 180px;
-  height: 0px;
-  border: 1px solid #F9F9F9;
-  flex: none;
-  order: 11;
-  align-self: stretch;
-  flex-grow: 0;
-}
-
-/* account settings */
-.account-settings {
-  width: 171px;
-  height: 24px; 
-  flex: none;
-  order: 12;
-  flex-grow: 0;
-}
-
-/* Account settings */
-.account-settings-text {
-  position: absolute;
-  width: 141px;
-  left: 50px;
-  top: 90.18%;
-  bottom: 4.46%;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: #000000;
-}
-
-/* Vector */
-.account-settings-vector {
-  position: absolute;
-  width: 15.51px;
-  left: 20px;
-  top: 91.29%;
-  bottom: 5.13%;
-  background: #548BAB;
-}
-
-/* **************************************************************** */
-
-.profiledetails {
-  position: absolute;
-  width: 175px;
-  height: 36px;
-  left: 511px;
   top: 316px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 150%;
-  /* identical to box height, or 36px */
-  color: #000000;
-  font-family: Montserrat sans-serif; 
-}
-
-/* **************************************************************** */
-
-/* Tabs / Profile details */
-.exp-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 20px;
-  position: absolute;
-  width: 618px;
-  height: 21px;
-  left: 511px;
-  top: 372px;
-}
-
-.tab {
-  position: relative; /* Added for positioning */
-  width: 123px; /* Adjusted width to match the widest tab (Work experience) */
-  height: 21px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 150%;
-  display: flex;
-  align-items: center;
-  color: #AEAEAA;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  cursor: pointer;
-}
-
-.tab:hover::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #548BAB; /* Underline color set to #548BAB */
-  bottom: 0;
-  left: 0;
-}
-
-/* Skills */
-.tab:hover::after {
-  background-color: #548BAB; /* Change color as needed */
-}
-
-/* Work experience */
-.tab:hover::after {
-  background-color: #548BAB; /* Change color as needed */
-}
-
-/* Education */
-.tab:hover::after {
-  background-color: #548BAB; /* Change color as needed */
-}
-
-/* Licenses & certifications */
-.tab:hover::after {
-  background-color: #548BAB; /* Change color as needed */
-}
-
-
-/* **************************************************************** */
-
- /* Button */
- .addexp-button {
-  position: absolute;
-  width: 157px;
-  height: 40px;
-  left: 510px;
-  top: 430px;
-  border-radius: 50px;
-  overflow: hidden; /* Ensure the border-radius clips the background properly */
-  display: flex;
-  align-items: center;
-}
-
-/* Button Background */
-.expbutton-background {
+  left: 250px;
+  border: 2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
   box-sizing: border-box;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  border: 2px solid #548BAB;
-  border-radius: 50px;
+  margin-left: 17vh;
+  margin-top: 5vh;
 }
-
-/* Plus Sign */
-.plus-sign {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px; /* Adjust spacing as needed */
+ 
+ 
+.itemmm {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+ 
+.linkkk {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+ 
+.icon111 {
+  width: 15.5px;
+  height: 15.5px;
+  margin-right: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  transition: transform 0.3s ease;
+}
+ 
+.h555 {
+  margin: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  transition: color 0.3s ease;
+}
+ 
+.linkkk:hover .icon111 {
+  transform: scale(1.2);
+  color:#548BAB
+}
+ 
+.linkkk:hover .h5 {
   color: #548BAB;
 }
+/* **************************************************************** */
 
-/* Button Title */
-.expbutton-title {
-  width: 100%;
-  height: 24px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #548BAB;
-}
+  .profiledetails {
+    position: absolute;
+    width: 175px;
+    height: 36px;
+    left: 511px;
+    top: 316px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    color: #000000;
+    font-family: Montserrat sans-serif;
+  }
+
+  /* **************************************************************** */
+
+  /* Tabs / Profile details */
+  .exp-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 618px;
+    height: 21px;
+    left: 511px;
+    top: 372px;
+  }
+
+  .tab {
+    position: relative; /* Added for positioning */
+    width: 123px; /* Adjusted width to match the widest tab (Work experience) */
+    height: 21px;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #AEAEAA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+
+  .tab:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #548BAB; /* Underline color set to #548BAB */
+    bottom: 0;
+    left: 0;
+  }
+
+  /* Skills */
+  .tab:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* Work experience */
+  .tab:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* Education */
+  .tab:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* Licenses & certifications */
+  .tab:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  .tab5{
+    position: relative; /* Added for positioning */
+    width: 175px; /* Adjusted width to match the widest tab (Work experience) */
+    height: 21px;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #AEAEAA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+
+  .tab5:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #548BAB; /* Underline color set to #548BAB */
+    bottom: 0;
+    left: 0;
+  }
+
+  /* Skills */
+  .tab5:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* Work experience */
+  .tab5:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* Education */
+  .tab5:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* Licenses & certifications */
+  .tab5:hover::after {
+    background-color: #548BAB; /* Change color as needed */
+  }
+
+  /* **************************************************************** */
+
+    /* Button */
+  .addexp-button {
+    position: absolute;
+    width: 157px; /* Adjust this width as needed */
+    height: 40px;
+    left: 510px;
+    top: 430px;
+    border-radius: 50px;
+    overflow: hidden; /* Ensure the border-radius clips the background properly */
+    display: flex;
+    align-items: center;
+  }
+
+  /* Button Background */
+  .expbutton-background {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%; /* Set to 100% to match the width of .addexp-button */
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid #548BAB;
+    border-radius: 50px;
+  }
+
+  .tab{
+    width: 16vh;    
+  }
+
+  /* **************************************************************** */
+
+  /* Plus Sign */
+  .plus-sign {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; /* Adjust spacing as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #548BAB;
+  }
+
+  /* Button Title */
+  .expbutton-title {
+    width: 100%;
+    height: 24px;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #548BAB;
+  }
+
+  /* **************************************************************** */
+  
+   /* Reset some default styles for consistency */
+   body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Your provided styles */
+
+  /* Frame */
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 10px;
+    position: absolute;
+    width: 680px;
+    left: 510px;
+    top: 500px;
+  }
+
+  /* Date range */
+  .date-range {
+    width: 133px;
+    height: 21px;
+    font-family: Montserrat sans-serif  ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #AEAEAA;
+  }
+
+  /* Job details */
+  .job-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 5px;
+    width: 280px;
+    height: 53px;
+  }
+
+  /* Job title */
+  .job-title {
+    width: 280px;
+    height: 27px;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+  }
+
+  /* Company name */
+  .company-name {
+    width: 120px;
+    height: 21px;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #548BAB;
+  }
+
+  /* Action buttons */
+  .action-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0 20px;
+    gap: 24px;
+    width: 410px;
+    height: 59px;
+  }
+
+  /* Button styles */
+  .button {
+    width: 83px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #548BAB;
+    border-radius: 55px;
+    font-family: Montserrat sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #548BAB;
+  }
+  
+  .button3{
+     width: 175px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #548BAB;
+    border-radius: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #548BAB;
+    }
+
+  /* Line separator */
+  .line {
+    width: 870px;
+    height: 0px;
+    border: 1px solid #E5E6E2;
+  }
+  
 
 /* **************************************************************** */
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* **************************************************************** */
-/* **************************************************************** */
-/* **************************************************************** */
-/* **************************************************************** */
 
 .footer {
   background-color: #FFFFFF;
@@ -627,7 +525,7 @@ nav a:hover,
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 90vh;
+  margin-top: 135vh;
 }
 
 
